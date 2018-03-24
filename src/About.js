@@ -30,7 +30,7 @@ class About extends Component {
           animation: 'bar-group 0.5s ease-in-out 0s 1'
         })
         $('.about-right-bar').css({
-          animation:'bar 0.5s ease-in-out 0s 1'
+          animation:'bar 1.5s ease-in-out 0s 1'
         })
 
         $(document).off('scroll')
@@ -62,54 +62,64 @@ class About extends Component {
               <div className='col-lg-1'></div>
               <div className='col-lg-6 mt-5 bar-group' data-aos="fade-left">
                 <div className='progress' style={{height:'40px',marginTop:'10px'}}>
-                  <div className="progress-bar progress-bar-striped bg-info progress-bar-animated about-right-bar" role="progressbar" style={{width:'80%', ariaValuenow:"80",ariaValuemin:"0", ariaValuemax:"100"}}>
+                  <div className="progress-bar progress-bar-striped bg-info progress-bar-animated about-right-bar" role="progressbar" style={{width:'85%', ariaValuenow:"85",ariaValuemin:"0", ariaValuemax:"100"}}>
                     <div style={{height:'100%',width:'120px',textAlign:'center', background:'lightblue',fontSize:'large',color:'white'}}>Javascript</div>
                   </div>
+                  <h5 style={{paddingLeft:'5%', paddingTop:'8px'}}>90%</h5>
                 </div>
                 <div className='progress' style={{height:'40px',marginTop:'10px'}}>
                   <div className="progress-bar progress-bar-striped bg-info progress-bar-animated about-right-bar" role="progressbar" style={{width:'70%', ariaValuenow:"70",ariaValuemin:"0", ariaValuemax:"100"}}>
                     <div style={{height:'100%',width:'120px',textAlign:'center', background:'lightblue',fontSize:'large',color:'white', paddingTop:'7px'}}>CSS</div>
                   </div>
+                  <h5 style={{paddingLeft:'20%', paddingTop:'8px'}}>70%</h5>
                 </div>
                 <div className='progress' style={{height:'40px',marginTop:'10px'}}>
                   <div className="progress-bar progress-bar-striped bg-info progress-bar-animated about-right-bar" role="progressbar" style={{width:'70%', ariaValuenow:"70",ariaValuemin:"0", ariaValuemax:"100"}}>
                     <div style={{height:'100%',width:'120px',textAlign:'center', background:'lightblue',fontSize:'large',color:'white', paddingTop:'7px'}}>HTML</div>
                   </div>
+                  <h5 style={{paddingLeft:'20%', paddingTop:'8px'}}>70%</h5>
                 </div>
                 <div className='progress' style={{height:'40px',marginTop:'10px'}}>
                   <div className="progress-bar progress-bar-striped bg-info progress-bar-animated about-right-bar" role="progressbar" style={{width:'80%', ariaValuenow:"80",ariaValuemin:"0", ariaValuemax:"100"}}>
                    <div style={{height:'100%',width:'120px',textAlign:'center', background:'lightblue',fontSize:'large',color:'white', paddingTop:'7px'}}>React</div>
                   </div>
+                  <h5 style={{paddingLeft:'10%', paddingTop:'8px'}}>80%</h5>
                 </div> 
                 <div className='progress' style={{height:'40px',marginTop:'10px'}}>
                   <div className="progress-bar progress-bar-striped bg-info progress-bar-animated about-right-bar" role="progressbar" style={{width:'60%', ariaValuenow:"60",ariaValuemin:"0", ariaValuemax:"100"}}>
                    <div style={{height:'100%',width:'120px',textAlign:'center', background:'lightblue',fontSize:'large',color:'white', paddingTop:'7px'}}>Node.js</div>
                   </div>
+                  <h5 style={{paddingLeft:'30%', paddingTop:'8px'}}>60%</h5>
                 </div> 
                 <div className='progress' style={{height:'40px',marginTop:'10px'}}>
                   <div className="progress-bar progress-bar-striped bg-info progress-bar-animated about-right-bar" role="progressbar" style={{width:'65%', ariaValuenow:"65",ariaValuemin:"0", ariaValuemax:"100"}}>
                    <div style={{height:'100%',width:'120px',textAlign:'center', background:'lightblue',fontSize:'large',color:'white', paddingTop:'7px'}}>SQL</div>
                   </div>
+                  <h5 style={{paddingLeft:'25%', paddingTop:'8px'}}>65%</h5>
                 </div> 
                 <div className='progress' style={{height:'40px',marginTop:'10px'}}>
                   <div className="progress-bar progress-bar-striped bg-info progress-bar-animated about-right-bar" role="progressbar" style={{width:'70%', ariaValuenow:"70",ariaValuemin:"0", ariaValuemax:"100"}}>
                     <div style={{height:'100%',width:'120px',textAlign:'center', background:'lightblue',fontSize:'large',color:'white', paddingTop:'7px'}}>NoSQL</div>
                   </div>
+                  <h5 style={{paddingLeft:'20%', paddingTop:'8px'}}>70%</h5>
                 </div> 
                 <div className='progress' style={{height:'40px',marginTop:'10px'}}>
                   <div className="progress-bar progress-bar-striped bg-info progress-bar-animated about-right-bar" role="progressbar" style={{width:'65%', ariaValuenow:"65",ariaValuemin:"0", ariaValuemax:"100"}}>
                     <div style={{height:'100%',width:'120px',textAlign:'center', background:'lightblue',fontSize:'large',color:'white', paddingTop:'7px'}}>UI Design</div>
                   </div>
+                  <h5 style={{paddingLeft:'25%', paddingTop:'8px'}}>65%</h5>
                 </div> 
                 <div className='progress' style={{height:'40px',marginTop:'10px'}}>
                   <div className="progress-bar progress-bar-striped bg-info progress-bar-animated about-right-bar" role="progressbar" style={{width:'60%', ariaValuenow:"60",ariaValuemin:"0", ariaValuemax:"100"}}>
                     <div style={{height:'100%',width:'120px',textAlign:'center', background:'lightblue',fontSize:'large',color:'white', paddingTop:'7px'}}>D3</div>
                   </div>
+                  <h5 style={{paddingLeft:'30%', paddingTop:'8px'}}>60%</h5>
                 </div>
                 <div className='progress' style={{height:'40px',marginTop:'10px'}}>
                   <div className="progress-bar progress-bar-striped bg-info progress-bar-animated about-right-bar" role="progressbar" style={{width:'80%', ariaValuenow:"80",ariaValuemin:"0", ariaValuemax:"100"}}>
                     <div style={{height:'100%',width:'120px',textAlign:'center', background:'lightblue',fontSize:'large',color:'white', paddingTop:'7px'}}>Bootstrap</div>
                   </div>
+                  <h5 style={{paddingLeft:'10%', paddingTop:'8px'}}>80%</h5>
                 </div> 
               </div>
             </div>  

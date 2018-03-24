@@ -63,10 +63,10 @@ class App extends Component {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="nav navbar-nav">
               <li className="nav-item px-3">
-                <a className="nav-link text-white" href="#home" onClick={() => {this.handleBtnOnClick(); scrollToComponent(this.home, { offset: 0, align: 'top', duration: 500})}}>Home</a>
+                <a className="nav-link text-white" href="#" onClick={() => {this.handleBtnOnClick(); scrollToComponent(this.home, { offset: 0, align: 'top', duration: 500})}}>Home</a>
               </li>
               <li className="nav-item px-3">
-                <a className="nav-link text-white" href="#about" onClick={() => {this.handleBtnOnClick(); scrollToComponent(this.about, { offset: 0, align: 'top', duration: 500})}}>About <span className="sr-only">(current)</span></a>
+                <a className="nav-link text-white" href="#" onClick={() => {this.handleBtnOnClick(); scrollToComponent(this.about, { offset: 0, align: 'top', duration: 500})}}>About <span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item px-3">
                 <a className="nav-link text-white" href="#" onClick={() => {this.handleBtnOnClick(); scrollToComponent(this.projects, { offset: 0, align: 'top', duration: 500})}}>Projects</a>
